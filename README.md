@@ -1,18 +1,26 @@
 # Generador de Presupuestos en Python 💼
 
-Proyecto introductorio desarrollado en Jupyter Notebook que permite calcular y generar
-un presupuesto en PDF para proyectos de desarrollo de software.
+Proyecto introductorio desarrollado en Jupyter Notebook que combina conceptos
+básicos de Python para construir una herramienta que genera presupuestos de
+consultoría en formato PDF.
 
 ## ¿Qué hace?
 
-El programa solicita al usuario cuatro datos:
+El notebook está estructurado de forma progresiva:
+
+1. **Conceptos básicos** — uso de `print()` e `input()` para mostrar y recibir información
+2. **Variables** — almacenamiento de texto y números
+3. **Integración** — combinación de todos los conceptos para recopilar los datos del presupuesto
+4. **Generación de PDF** — uso de la librería `fpdf` para producir un archivo PDF con plantilla visual
+
+Los datos que solicita al usuario son:
 - Nombre del proyecto
 - Horas estimadas de trabajo
 - Valor de la hora trabajada
 - Plazo estimado de entrega
 
 Con esa información calcula el costo total (`horas × valor_hora`) y genera
-automáticamente un archivo `Presupuesto.pdf` con los datos ingresados.
+automáticamente un archivo `Presupuesto.pdf` con los datos sobre una plantilla diseñada en Canva.
 
 ## Tecnologías usadas
 
@@ -28,16 +36,9 @@ pip install fpdf
 ## Cómo ejecutarlo
 
 1. Clona el repositorio
-2. Coloca el archivo `Template.png` en la misma carpeta (plantilla visual del presupuesto)
-3. Abre `proyecto.ipynb` en Jupyter Notebook o VS Code
+2. Asegúrate de tener el archivo `Template.png` en la misma carpeta
+3. Abre `generador_presupuesto.ipynb` en Jupyter Notebook o VS Code
 4. Ejecuta las celdas en orden
-
-## Aprendizajes aplicados
-
-- Entrada y salida de datos con `input()` y `print()`
-- Almacenamiento en variables y conversión de tipos (`int()`, `str()`)
-- Uso de librerías externas (`fpdf`)
-- Generación de archivos PDF desde Python
 
 ## Autor
 Alejandro Cruz Castañeda

@@ -1,6 +1,6 @@
 # Generador de Presupuestos en Python 💼
 
-Proyecto introductorio desarrollado en Jupyter Notebook que combina conceptos
+Proyecto introductorio desarrollado en VS Code que combina conceptos
 básicos de Python para construir una herramienta que genera presupuestos de
 consultoría en formato PDF.
 
